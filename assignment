@@ -1,0 +1,14 @@
+#include<stdio.h>
+factorial() {
+     int n, i;
+    int fact= 1;
+
+    printf("Enter the nemuber to find the factorial of: ");
+    scanf("%d", &n);
+
+    for (i=1; i<= n; ++i) {
+          fact *= i;
+    }
+main() {
+     factorial();
+}
